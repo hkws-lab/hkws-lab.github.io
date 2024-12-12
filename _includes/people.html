@@ -1,25 +1,25 @@
----
-title: People
-layout: default
-group: members
----
-
-<h1>People</h1>
-<hr>
-
-<div class="d-flex flex-wrap justify-content-around">
-{%- for person in site.data.members | sort: "startdate" -%}
-  <div class="p-2 text-center">
-    <a href="/member/#{{ person.name | url_encode }}">
-      <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px">
-    </a>
-    <br>
-    <a href="/member/#{{ person.name | url_encode }}">
-      <strong>{{ person.name }}</strong>
-    </a>
-    <br>
-    <em>{{ person.email }}</em>
-    <br>
-  </div>
-{%- endfor -%}
-</div>
+<section id="people">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Lab Members</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {%- for person in site.data.members | sort: "startdate" -%}
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="member-box">
+                    <a href="/member/#{{ person.name | url_encode }}">
+                        <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:250px;max-width:250px">
+                    </a>
+                    <h3>{{ person.name }}</h3>
+                    <p class="text-muted">{{ person.email }}</p>
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</section>
