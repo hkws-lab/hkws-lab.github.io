@@ -3,7 +3,7 @@ title: Wayment-Steele lab
 email: hkws.lab@gmail.com
 description: Wayment-Steele lab> # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "waymentsteelelab.org" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
