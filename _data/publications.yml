@@ -1,8 +1,38 @@
-- citation: "Wayment-Steele HK<sup>*</sup>, Otten R<sup>*</sup>, Pitsawong W<sup>*</sup>, Ojoawo A<sup>*</sup>, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *PNAS* **2024**"
+- citation: "Wayment-Steele HK\*, Otten R\*, Pitsawong W\*, Ojoawo A\*, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *PNAS* **2024**"
   date: 20240603
   
-- citation: "Zhang Z<sup>*</sup>, Wayment-Steele HK<sup>*</sup>, Brixi G, Wang H, Dal Peraro M, Kern D & Ovchinnikov S. Protein language models learn evolutionary statistics of interacting sequence motifs. *PNAS* **2024**"
+- citation: "Zhang Z\*, Wayment-Steele HK\*, Brixi G, Wang H, Dal Peraro M, Kern D & Ovchinnikov S. Protein language models learn evolutionary statistics of interacting sequence motifs. *PNAS* **2024**"
   date: 20240131
 
-- citation: "Wayment-Steele HK<sup>*</sup>, Ojoawo A<sup>*</sup>, Otten R, Apitz JM, Pitsawong W, Hoemberger M, Ovchinnikov S, Colwell L & Kern D. Predicting multiple conformations via sequence clustering and AlphaFold2. *Nature* **2023**"
+- citation: "Wayment-Steele HK\*, Ojoawo A\*, Otten R, Apitz JM, Pitsawong W, Hoemberger M, Ovchinnikov S, Colwell L & Kern D. Predicting multiple conformations via sequence clustering and AlphaFold2. *Nature* **2023**"
   date: 20231113
+
+- citation: "Wayment-Steele, HK\*, Kladwang, W\*, Watkins, AM\*, Kim, DS*, Tunguz, B*, ... Das, R. Deep learning models for predicting RNA degradation via dual crowdsourcing. *Nature Machine Intelligence* **2022**"
+  date: 20221215
+
+- citation: "Wayment-Steele, HK, Kladwang, W, Strom, A. I., Becka, A., Lee, J., Treuille, A., Eterna Participants, Das, R. RNA secondary structure packages evaluated and improved by high-throughput experiments. *Nature Methods* **2022**"
+  date: 20221101
+
+- citation: "Leppek, K.\*, Byeon, G.W.\*, Kladwang, W.\*, Wayment-Steele, H. K.\*, Kerr, C. H.\*, ... Barna, M., Das, R. Combinatorial optimization of mRNA structure, stability, and translation for RNA-based therapeutics. *Nature Communications* **2022**"
+  date: 20220920
+
+- citation: "Andreasson, J. O., Gotrik, M. R., Wu, M. J., Wayment-Steele, H. K., Kladwang, W., Portela, F., Wellington-Oguri, R., Eterna Participants, Das, R., Greenleaf, W. J. Crowdsourced RNA design discovers diverse, reversible, efficient, self-contained molecular sensors. *PNAS* **2022**"
+  date: 20220618
+
+- citation: "Wayment-Steele, H.K., Kim, D.S., Choe, C.A., Nicol, J.J., Wellington-Oguri, R., Sperberg, R.A.P., Huang, P., Eterna Participants, Das, R. Theoretical basis for stabilizing messenger RNA through secondary structure design. *Nucleic Acids Research* **2021**"
+  date: 20211201
+
+- citation: "Kostrz, D., Wayment-Steele, H. K., Wang, J. L., Follenfant, M., Pande, V. S., Strick, T. R., Gosse, C. A modular DNA scaffold to study protein–protein interactions at single-molecule resolution. *Nature Nanotechnology* **2019**"
+  date: 20191005
+
+- citation: "Wayment-Steele, H. K., Pande, V. S. Variational encoding of protein dynamics benefits from maximizing latent autocorrelation. *The Journal of Chemical Physics* **2018**"
+  date: 20181210
+
+- citation: "Hernandez, C. X.\*, Wayment-Steele, H. K.\*, Sultan, M. M.\*, Husic, B. E., Pande, V. S. Variational Encoding of Complex Dynamics. *Physical Review E* **2018**"
+  date: 20180615
+
+- citation: "Sultan, M. M., Wayment-Steele, H. K., Pande, V. S. Transferable neural networks for enhanced sampling of protein dynamics. *Journal of Chemical Theory and Computation* **2018**"
+  date: 20180410
+
+- citation: "Husic, B. E., McKiernan, K. A., Wayment-Steele, H. K., Sultan, M. M., Pande, V.S. A minimum variance clustering approach produces robust and interpretable coarse-grained models. *Journal of Chemical Theory and Computation* **2018**"
+  date: 20180220
