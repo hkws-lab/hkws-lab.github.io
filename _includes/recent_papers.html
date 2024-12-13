@@ -1,0 +1,26 @@
+<section id="recent_papers">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Recent Publications</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <!-- Recent Publications Section -->
+                <div style="max-height: 300px; overflow-y: auto; margin-bottom: 20px;">
+                    <ul>
+                        {% assign sorted_publications = site.data.publications | sort: "date" | reverse -%}
+                        {%- for publication in sorted_publications limit:3 -%}
+                            <li style="font-size: 120%;">{{ publication.citation | markdownify }}</li>
+                        {%- endfor -%}
+                    </ul>
+                </div>
+                <a href="/publications" class="btn btn-primary">See More Papers</a>
+            </div>
+        </div>
+    </div>
+</section>
