@@ -9,3 +9,9 @@
   role: "PhD student in Biophysics"
   image: "img/members/kritika.jpg"
   startdate: "2024-12-01"
+
+- name: "Gina El Nesr"
+  email: "gelnesr (at) stanford (dot) edu"
+  role: "Visiting researcher"
+  image: "img/members/gina.jpg"
+  startdate: "2024-12-02"
