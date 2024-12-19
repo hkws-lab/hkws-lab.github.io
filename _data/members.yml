@@ -15,3 +15,9 @@
   role: "Visiting researcher"
   image: "img/people/gina.jpg"
   startdate: "2024-12-02"
+
+- name: "Ben Harding"
+  email: "bdharding (at) wisc (dot) edu"
+  role: "Post-doc (starting 2025)"
+  image: "img/people/filler.jpg"
+  startdate: "2024-12-02"
