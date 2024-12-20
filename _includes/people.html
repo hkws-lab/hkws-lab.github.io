@@ -10,8 +10,8 @@
     <div class="container">
         <div class="d-flex flex-wrap justify-content-around"> <!-- Use Flexbox here -->
             {%- for person in site.data.members | sort: "startdate" -%}
-            <div class="text-center" style="flex: 0 1 calc(25% - 20px); margin: 10px;"> <!-- Flex properties for uniform spacing -->
-                <div class="member-box">
+                 <div class="col-lg-3 col-md-6 text-center">
+                 <div class="member-box">
                     <a href="/member/#{{ person.name | url_encode }}">
                         <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:225px;max-width:225px">
                     </a>
