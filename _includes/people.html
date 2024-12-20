@@ -1,3 +1,11 @@
+<style>
+.member-box {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+</style>
+
 <section id="people">
     <div class="container">
         <div class="row">
@@ -8,16 +16,18 @@
         </div>
     </div>
     <div class="container">
-        <div class="d-flex flex-wrap justify-content-around"> 
+        <div class="d-flex flex-wrap justify-content-around">
             {%- for person in site.data.members | sort: "startdate" -%}
-                <div class="p-2 text-center">
-                    <a href="/member/#{{ person.name | url_encode }}">
-                        <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:225px;max-width:225px">
-                    </a>
-                    <h3>{{ person.name }}</h3>
-                    <p class="text-muted">{{ person.role }}</p>
-                    <p class="text-muted">{{ person.email }}</p>
-            </div>
+                <div class="text-center" style="flex: 0 1 calc(25% - 20px); margin: 10px;">
+                    <div class="member-box">
+                        <a href="/member/#{{ person.name | url_encode }}">
+                            <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:225px;max-width:225px">
+                        </a>
+                        <h3>{{ person.name }}</h3>
+                        <p class="text-muted">{{ person.role }}</p>
+                        <p class="text-muted">{{ person.email }}</p>
+                    </div>
+                </div>
             {%- endfor -%}
         </div>
     </div>
