@@ -10,14 +10,20 @@
   image: "img/people/kritika.jpeg"
   startdate: "2024-12-01"
 
+  - name: "Cizhang 'Jojo' Zhao"
+  email: "czhao276 (at) wisc (dot) edu"
+  role: "PhD student in Biophysics"
+  image: "img/people/filler.jpeg"
+  startdate: "2024-12-02"
+
 - name: "Gina El Nesr"
   email: "gelnesr (at) stanford (dot) edu"
   role: "Visiting researcher"
   image: "img/people/gina.jpg"
-  startdate: "2024-12-02"
+  startdate: "2024-12-03"
 
 - name: "Ben Harding"
   email: "bdharding (at) wisc (dot) edu"
   role: "Post-doc (starting 2025)"
   image: "img/people/filler.jpg"
-  startdate: "2024-12-02"
+  startdate: "2025-06-01"
