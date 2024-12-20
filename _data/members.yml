@@ -1,5 +1,5 @@
-- name: "Hannah W-S"
-  email: "hannah (dot) waymentsteele (at) wisc (dot) edu"
+- name: "Hannah Wayment-Steele"
+  email: "hannah(dot)waymentsteele(at)wisc(dot)edu"
   role: "Data junkie in chief"
   image: "img/people/hannah.jpeg"
   startdate: "2024-08-01"
@@ -13,7 +13,7 @@
 - name: "Cizhang (Jojo) Zhao"
   email: "czhao276 (at) wisc (dot) edu"
   role: "PhD student in Biophysics"
-  image: "img/people/filler.jpg"
+  image: "img/people/jojo.jpg"
   startdate: "2024-12-02"
 
 - name: "Gina El Nesr"
