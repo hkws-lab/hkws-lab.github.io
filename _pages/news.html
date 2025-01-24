@@ -8,3 +8,12 @@ permalink: /news/
 <h3>[under construction]</h3>
 
 <hr>
+
+
+{% assign sorted_news = site.data.news | sort: "date" | reverse -%}
+
+{%- for news in sorted_news -%}
+  <div style="padding-top: 20px; margin-top: -20px;" id="{{ news.date }}"></div>
+  <div style="font-size: 120%;">{{ news.text | markdownify }}</div>
+  {%- unless forloop.last -%} <hr> {%- endunless -%}
+{%- endfor -%}
