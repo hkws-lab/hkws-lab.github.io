@@ -4,19 +4,19 @@
   image: "img/people/hannah.jpeg"
   startdate: "2024-08-01"
 
-- name: "Kritika Kumari              "
+- name: "Kritika Kumari"
   email: "kkumari (at) wisc.edu"
   role: "PhD student in Biophysics"
   image: "img/people/kritika.jpeg"
   startdate: "2024-12-01"
 
-- name: "Cizhang Zhao (JOJO)               "
+- name: "Cizhang Zhao (JOJO)"
   email: "czhao276 (at) wisc.edu"
   role: "PhD student in Biophysics"
   image: "img/people/jojo.jpg"
   startdate: "2024-12-02"
 
-- name: "Gina El Nesr              "
+- name: "Gina El Nesr"
   email: "gelnesr (at) stanford.edu"
   role: "Visiting researcher"
   image: "img/people/gina.jpg"
