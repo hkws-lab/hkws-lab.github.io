@@ -1,5 +1,5 @@
-/* Modal styles */
-.modal {
+/* Updated Modal styles */
+.custom-modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1000; /* Sit on top */
@@ -11,8 +11,8 @@
     background-color: rgba(0, 0, 0, 0.5); /* Black with opacity */
 }
 
-/* Modal Content Box */
-.modal-content {
+/* Updated Modal Content Box */
+.custom-modal-content {
     background-color: #fff;
     margin: 10% auto; /* Center in the screen */
     padding: 20px;
@@ -24,7 +24,7 @@
 }
 
 /* Close Button */
-.close {
+.custom-close {
     color: #aaa;
     float: right;
     font-size: 28px;
@@ -32,19 +32,8 @@
     cursor: pointer;
 }
 
-.close:hover,
-.close:focus {
+.custom-close:hover,
+.custom-close:focus {
     color: #000;
     text-decoration: none;
-}
-
-/* Link Style */
-a {
-    text-decoration: none;
-    color: blue;
-    font-size: 110%;
-}
-
-a:hover {
-    text-decoration: underline;
 }
