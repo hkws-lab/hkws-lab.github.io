@@ -1,8 +1,8 @@
-// Get the modal element
-const modal = document.getElementById("news-modal");
+// Get the modal element by its ID
+const modal = document.getElementById("recent_news_pop");
 
 // Get the <span> element that closes the modal
-const closeBtn = document.querySelector(".close");
+const closeBtn = document.querySelector(".custom-close");
 
 // Show the modal when the page loads
 window.onload = function () {
