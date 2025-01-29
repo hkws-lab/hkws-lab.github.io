@@ -34,17 +34,17 @@
     color: white;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 8px 12px;
     border-radius: 5px;
     font-size: 18px;
 }
 
 .prev-btn {
-    left: 10px;
+    left: 5px;
 }
 
 .next-btn {
-    right: 10px;
+    right: 5px;
 }
 
 .prev-btn:hover, .next-btn:hover {
@@ -59,7 +59,7 @@
 
 .see-more-btn {
     text-decoration: none;
-    color: blue;
+    color: red;
     font-size: 110%;
 }
 
