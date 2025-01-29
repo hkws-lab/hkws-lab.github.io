@@ -40,11 +40,11 @@
 }
 
 .prev-btn {
-    left: 5px;
+    left: 2px;
 }
 
 .next-btn {
-    right: 5px;
+    right: 2px;
 }
 
 .prev-btn:hover, .next-btn:hover {
