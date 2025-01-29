@@ -1,22 +1,24 @@
-// Get the modal element by its ID
-const modal = document.getElementById("recent_news_pop");
+// Wait for the DOM to load
+document.addEventListener("DOMContentLoaded", function () {
+    // Get modal and buttons
+    const modal = document.getElementById("news-modal");
+    const openModalBtn = document.getElementById("open-news-popup");
+    const closeModalBtn = document.getElementById("close-news-popup");
 
-// Get the <span> element that closes the modal
-const closeBtn = document.querySelector(".custom-close");
+    // Open the modal when the button is clicked
+    openModalBtn.addEventListener("click", function () {
+        modal.style.display = "block";
+    });
 
-// Show the modal when the page loads
-window.onload = function () {
-    modal.style.display = "block";
-};
-
-// Close the modal when the "X" is clicked
-closeBtn.onclick = function () {
-    modal.style.display = "none";
-};
-
-// Close the modal when the user clicks outside the modal
-window.onclick = function (event) {
-    if (event.target === modal) {
+    // Close the modal when the close button is clicked
+    closeModalBtn.addEventListener("click", function () {
         modal.style.display = "none";
-    }
-};
+    });
+
+    // Close the modal when clicking outside the modal content
+    window.addEventListener("click", function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+});
