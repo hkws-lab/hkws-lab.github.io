@@ -3,10 +3,22 @@
 
 {% include head.html %}
 
-<div class="row-fluid">
-  <p class="primary">
-  {{ content }}
-    </p>
-</div>
+<body id="page-top" class="{{ page.body_class }}">
+
+    {% include nav.html %} <!-- Ensure navigation is included -->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="primary">
+                    {{ content }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {% include contact.html %} <!-- Ensure footer is included -->
+
+</body>
 
 </html>
