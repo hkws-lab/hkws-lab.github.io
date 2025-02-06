@@ -1,6 +1,8 @@
 ---
 title: Wayment-Steele Lab news
+layout: default
 permalink: /news/
+head_override: true
 ---
 
 {% include head.html %}
@@ -17,6 +19,3 @@ permalink: /news/
   <div style="font-size: 120%;">{{ news.text | markdownify }}</div>
   {%- unless forloop.last -%} <hr> {%- endunless -%}
 {%- endfor -%}
-
-
-</html>
