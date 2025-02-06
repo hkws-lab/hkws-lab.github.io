@@ -350,8 +350,27 @@ body {
 }
 
 .news-page {
-    background-color: white; /* Ensure consistent background */
+    background-color: white; /* Ensure background matches the main site */
     font-family: serif;
     color: #111;
+    padding: 50px 20px;
 }
 
+/* Ensure headings look the same as the homepage */
+.news-page h1, 
+.news-page h2, 
+.news-page h3 {
+    font-weight: bold;
+    color: $theme-dark;
+}
+
+/* Fix link colors */
+.news-page a {
+    color: $theme-primary;
+    text-decoration: none;
+}
+
+.news-page a:hover {
+    color: darken($theme-primary, 10%);
+    text-decoration: underline;
+}
