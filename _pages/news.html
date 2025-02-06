@@ -2,32 +2,15 @@
 title: Wayment-Steele Lab news
 layout: default
 permalink: /news/
-body_class: news-page
 ---
 
-
 <h1>News</h1>
-<h3>[under constructionnn]</h3>
+<h3>[under constructionn]</h3>
 
 <hr>
-
-<body class="{{ page.body_class }}">
-    {% include nav.html %}
-    {% assign sorted_news = site.data.news | sort: "date" | reverse -%}
-    <main>
-        {%- for news in sorted_news -%}
-          <div style="padding-top: 20px; margin-top: -20px;" id="{{ news.date }}"></div>
-          <div style="font-size: 120%;">{{ news.text | markdownify }}</div>
-          {%- unless forloop.last -%} <hr> {%- endunless -%}
-        {%- endfor -%}
-    </main>
-    {% include footer.html %}
-</body>
-
-<!-- {% assign sorted_news = site.data.news | sort: "date" | reverse -%}
-
+{% assign sorted_news = site.data.news | sort: "date" | reverse -%}
 {%- for news in sorted_news -%}
   <div style="padding-top: 20px; margin-top: -20px;" id="{{ news.date }}"></div>
   <div style="font-size: 120%;">{{ news.text | markdownify }}</div>
   {%- unless forloop.last -%} <hr> {%- endunless -%}
-{%- endfor -%} -->
+{%- endfor -%}
