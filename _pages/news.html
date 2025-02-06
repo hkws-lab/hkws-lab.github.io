@@ -4,14 +4,29 @@ permalink: /news/
 layout: default
 body_class: news-page
 ---
-{% include head.html %}
-<h1>News</h1>
-<h3>[under constructioni]</h3>
+<!-- {% include head.html %} -->
 
-<hr>
-{% assign sorted_news = site.data.news | sort: "date" | reverse -%}
-{%- for news in sorted_news -%}
-  <div style="padding-top: 20px; margin-top: -20px;" id="{{ news.date }}"></div>
-  <div style="font-size: 120%;">{{ news.text | markdownify }}</div>
-  {%- unless forloop.last -%} <hr> {%- endunless -%}
-{%- endfor -%}
+<section class="news-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>News</h1>
+                <h3>[Under Construction]</h3>
+                <hr class="primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                {% assign sorted_news = site.data.news | sort: "date" | reverse -%}
+                {%- for news in sorted_news -%}
+                    <div class="news-item" id="{{ news.date }}">
+                        <div class="news-content">
+                            <p class="news-text">{{ news.text | markdownify }}</p>
+                        </div>
+                    </div>
+                    {%- unless forloop.last -%} <hr> {%- endunless -%}
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>
