@@ -1,0 +1,45 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" 
+    style="
+        background-image: url('../img/header.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60px;
+    ">
+
+    <div class="container-fluid">
+        <!-- Brand and toggle -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">W-S Lab</a>
+        </div>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {% if page.url == "/" %}
+                <!-- If on homepage, scroll to sections -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#people">People</a></li>
+                <li><a href="/research">Research</a></li>
+                <li><a href="#new_news_carousel">News</a></li>
+                <li><a href="#recent_papers">Papers</a></li>
+                <li><a href="#contact">Contact</a></li>
+                {% else %}
+                <!-- If on another page, go to homepage first, then scroll -->
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#people">People</a></li>
+                <li><a href="/research">Research</a></li>
+                <li><a href="/#new_news_carousel">News</a></li>
+                <li><a href="/#recent_papers">Papers</a></li>
+                <li><a href="/#contact">Contact</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
