@@ -4,8 +4,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 40px;">
-    
+        height: 40px;
+    ">
 
     <div class="container-fluid">
         <div class="navbar-header">
@@ -18,27 +18,24 @@
             <a class="navbar-brand" href="/">W-S Lab</a>
         </div>
 
-
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% if page.url == "/" %}
-
-                <li><a href="#about">About</a></li>
-                <li><a href="#people">People</a></li>
-                <li><a href="/research">Research</a></li>
-                <li><a href="#new_news_carousel">News</a></li>
-                <li><a href="#recent_papers">Papers</a></li>
-                <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#people">People</a></li>
+                    <li><a href="/research">Research</a></li>
+                    <li><a href="#new_news_carousel">News</a></li>
+                    <li><a href="#recent_papers">Papers</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 {% else %}
-
-                <li><a href="/#about">About</a></li>
-                <li><a href="/#people">People</a></li>
-                <li><a href="/research">Research</a></li>
-                <li><a href="/#new_news_carousel">News</a></li>
-                <li><a href="/#recent_papers">Papers</a></li>
-                <li><a href="/#contact">Contact</a></li>
+                    <li><a href="/#about">About</a></li>
+                    <li><a href="/#people">People</a></li>
+                    <li><a href="/research">Research</a></li>
+                    <li><a href="/#new_news_carousel">News</a></li>
+                    <li><a href="/#recent_papers">Papers</a></li>
+                    <li><a href="/#contact">Contact</a></li>
                 {% endif %}
             </ul>
-        </div>
-    </div>
+        </div> <!-- End collapse navbar-collapse -->
+    </div> <!-- End container-fluid -->
 </nav>
