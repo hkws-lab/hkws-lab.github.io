@@ -5,8 +5,13 @@
 
 <body id="page-top" class="{{ page.body_class }}">
 
-    {% include nav.html %} <!-- Ensure navigation is included -->
-    {% include header.html %} <!-- Ensure the bg for navigation is included!! -->
+<!--     {% include nav.html %} <!-- Ensure navigation is included --> -->
+<!--     {% include header.html %} <!-- Ensure the bg for navigation is included!! --> -->
+    {% if page.url == "/" %}
+        {% include nav.html %}  <!-- Show main header on the homepage -->
+    {% else %}
+        {% include nav_otherpages.html %}  <!-- Show a different header for all other pages -->
+    {% endif %}
     
     <div class="container">
         <div class="row">
