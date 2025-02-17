@@ -4,6 +4,7 @@
   image: "img/people/hannah.jpeg"
   startdate: "2024-08-01"
   island_stuff: "A rowboat"
+  alma_matter: "Ph.D., Chemistry, Stanford University; Postdoc Brandeis University"
 
 - name: "Kritika Kumari"
   email: "kkumari (at) wisc.edu"
@@ -11,6 +12,7 @@
   image: "img/people/kritika.jpeg"
   startdate: "2024-12-01"
   island_stuff: "A Friend"
+  alma_matter: "BS-MS Biology, Indian Institute of Science Education & Research Pune"
 
 - name: "Cizhang Zhao (JOJO)"
   email: "czhao276 (at) wisc.edu"
@@ -18,6 +20,7 @@
   image: "img/people/jojo.jpg"
   startdate: "2024-12-02"
   island_stuff: "A Knife"
+  alma_matter: "Bachelors Biosciences, University of Science and Technology of China"
 
 - name: "Gina El Nesr"
   email: "gelnesr (at) stanford.edu"
@@ -25,6 +28,7 @@
   image: "img/people/gina.jpg"
   startdate: "2024-12-03"
   island_stuff: "Swimsuit & goggles"
+  alma_matter: "Ph.D. Biophysics, Stanford University; B.A. Biophysics, Johns Hopkins University; B.S. Computer Science, Johns Hopkins University; B.S. Applied Math & Statistics, Johns Hopkins University"
 
 - name: "Ben Harding"
   email: "bdharding (at) wisc.edu"
@@ -32,3 +36,4 @@
   image: "img/people/Ben_Harding.jpg"
   startdate: "2025-06-01"
   island_stuff: ""
+  alma_matter: "Ph.D Biophysics, University of Wisconsin–Madison; B.S. Biochemistry, Miami University (Ohio)"
