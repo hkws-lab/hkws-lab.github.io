@@ -4,7 +4,7 @@
   image: "img/people/hannah.jpeg"
   startdate: "2024-08-01"
   island_stuff: "A rowboat"
-  alma_matter: " Postdoctoral, Brandeis University; Ph.D., Chemistry, Stanford University"
+  alma_matter: ""
 
 - name: "Kritika Kumari"
   email: "kkumari (at) wisc.edu"
@@ -28,7 +28,7 @@
   image: "img/people/gina.jpg"
   startdate: "2024-12-03"
   island_stuff: "Swimsuit & goggles"
-  alma_matter: "Ph.D. Biophysics, Stanford University; B.A. Biophysics, JHU; B.S. Computer Science, JHU; B.S. Applied Math & Statistics, JHU"
+  alma_matter: "Ph.D. Biophysics, Stanford University; B.A. Biophysics / Computer Science / Applied Math & Statistics, JHU"
 
 - name: "Ben Harding"
   email: "bdharding (at) wisc.edu"
