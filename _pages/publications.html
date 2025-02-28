@@ -20,8 +20,9 @@ permalink: /publications/
                     <div class="publication-item" id="{{ publication.date }}">
                         <div class="publication-content">
                             <p class="publication-text">{{ publication.citation | markdownify }}</p>
-<!--                             <p class="publication-text">{{ publication.url_link}}</p> -->
-                            <h3><a href={{publication.url_link}} target="_blank">{{ publication.url_link }}</a></h3>
+                            <p class="publication-text">
+                                <h3><a href={{publication.url_link}} target="_blank">{{ publication.url_link }}</a></h3>
+                            </p>
                         </div>
                     </div>
                     {%- unless forloop.last -%} <hr> {%- endunless -%}
