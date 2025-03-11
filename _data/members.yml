@@ -37,3 +37,11 @@
   startdate: "2025-06-01"
   island_stuff: "Golf clubs"
   alma_matter: "Ph.D Biophysics, University of Wisconsin–Madison; B.S. Biochemistry, Miami University (Ohio)"
+
+- name: "Yuxin Duan (Phillip)"
+  email: "yduan47 (at) wisc.edu"
+  role: "UG researcher"
+  image: "img/people/Phillip.jpg"
+  startdate: "2025-02-20"
+  island_stuff: "Locally deployed large language model with enough battery source"
+  alma_matter: "UG Biology / Data Science, University of Wisconsin–Madison"
