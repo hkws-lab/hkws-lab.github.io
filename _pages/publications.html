@@ -19,10 +19,16 @@ permalink: /publications/
                 {%- for publication in sorted_publications -%}
                     <div class="publication-item" id="{{ publication.date }}">
                         <div class="publication-content">
-                            <p class="publication-text">{{ publication.citation | markdownify }}</p>
-                            <p class="publication-text">
-                                <a href={{publication.url_link}} target="_blank">{{ publication.url_link }}</a>
+                            <p class="publication-text">{{ publication.citation | markdownify }}
+                            {% if publication.url_link %}
+                                    <a href="{{ publication.url_link }}" target="_blank" 
+                                       style="margin-left: 8px; text-decoration: none; font-size: 1.2em;"
+                                       aria-label="Open publication">
+                                        🔗
+                                    </a>
+                            {% endif %}                            
                             </p>
+                            
                         </div>
                     </div>
                     {%- unless forloop.last -%} <hr> {%- endunless -%}
