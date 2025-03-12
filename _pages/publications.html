@@ -20,14 +20,12 @@ permalink: /publications/
                     <div class="publication-item" id="{{ publication.date }}">
                         <div class="publication-content">
 
-                            <p class="publication-text" style="display: flex; flex-wrap: wrap;">
-                                {% capture citation %}{{ publication.citation | markdownify }}{% endcapture %}
-                                <span style="display: inline;">{{ citation | strip_newlines }}</span>
+                            <p class="publication-text">
+                                {{ publication.citation | markdownify | strip_newlines }}
                                 {% if publication.url_link %}
                                     <a href="{{ publication.url_link }}" target="_blank" 
-                                       style="margin-left: 8px; text-decoration: none; font-size: 1.2em;"
-                                       aria-label="Open publication">
-                                        🔗
+                                       style="margin-left: 8px; text-decoration: none; font-size: 1.1em;"
+                                       aria-label="Open publication">🔗
                                     </a>
                                 {% endif %}
                             </p>
