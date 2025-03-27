@@ -22,12 +22,10 @@ permalink: /publications/
 
                             <p class="publication-text">
                                 {{ publication.citation 
-                                {% if publication.url_link %}
                                     <a href="{{ publication.url_link }}" target="_blank" 
                                        style="margin-left: 8px; text-decoration: none; font-size: 1.1em;"
                                        aria-label="Open publication">🔗
-                                    </a>
-                                {% endif %} | markdownify | strip_newlines }}
+                                    </a> | markdownify | strip_newlines }}
                             </p>
                             
                         </div>
