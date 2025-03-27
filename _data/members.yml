@@ -45,3 +45,12 @@
   startdate: "2025-02-20"
   island_stuff: "Locally deployed large language model with enough battery source"
   alma_matter: "UG Biology / Data Science, University of Wisconsin–Madison"
+
+
+- name: "Nevin Pai"
+  email: "nnpai (at) wisc.edu"
+  role: "UG researcher"
+  image: "img/people/Nevin.jpg"
+  startdate: "2025-02-20"
+  island_stuff: "A Frisbee"
+  alma_matter: "UG Biochemistry / Computer Science, University of Wisconsin–Madison"
