@@ -18,7 +18,7 @@ permalink: /publications/
                 {% assign sorted_publications = site.data.publications | sort: "date" | reverse -%}
                 {%- for publication in sorted_publications -%}
                     <div class="publication-item" id="{{ publication.date }}">
-                        <div class="publication-content">
+                        <!--<div class="publication-content">
 
                             <p class="publication-text">
                                 {{ publication.citation | markdownify | strip_newlines }}
@@ -28,7 +28,20 @@ permalink: /publications/
                                     </a>
                             </p>
                             
+                        </div> -->
+                        
+                        <div class="publication-row" style="display: flex; align-items: center; gap: 8px;">
+                            <span>{{ publication.citation | markdownify | strip_newlines }}</span>
+                            <a href="{{ publication.url_link }}" target="_blank" 
+                               style="text-decoration: none; font-size: 1.1em;"
+                               aria-label="Open publication">🔗
+                            </a>
                         </div>
+
+
+
+
+                        
                     </div>
                     {%- unless forloop.last -%} <hr> {%- endunless -%}
                 {%- endfor -%}
