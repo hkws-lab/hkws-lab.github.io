@@ -21,10 +21,7 @@ permalink: /publications/
                         <div class="publication-content">
 
                             <p class="publication-text">
-                                {{ publication.citation}} <a href="{{ publication.url_link }}" target="_blank" 
-                                       style="margin-left: 8px; text-decoration: none; font-size: 1.1em;"
-                                       aria-label="Open publication">🔗
-                                    </a>  | markdownify
+                                {{ publication.citation | strip_newlines | markdownify }}   
                             </p>
                             
                         </div>
