@@ -38,6 +38,14 @@
   island_stuff: "Golf clubs"
   alma_matter: "Ph.D Biophysics, University of Wisconsin–Madison; B.S. Biochemistry, Miami University (Ohio)"
 
+- name: "Andres Lira"
+  email: "alira3 (at) wisc.edu"
+  role: "PhD student in Biophysics"
+  image: "img/people/Andres.jpeg"
+  startdate: "2025-06-12"
+  island_stuff: ""
+  alma_matter: "B.S. in Biochemistry and Molecular Biology UC Davis"
+  
 - name: "Nevin Pai"
   email: "nnpai (at) wisc.edu"
   role: "UG researcher"
@@ -47,11 +55,5 @@
   alma_matter: "UG Biochemistry / Computer Science, University of Wisconsin–Madison"
 
 
-- name: "Andres Lira"
-  email: "alira3 (at) wisc.edu"
-  role: "PhD student in Biophysics"
-  image: "img/people/Andres.jpeg"
-  startdate: "2025-06-12"
-  island_stuff: ""
-  alma_matter: "B.S. in Biochemistry and Molecular Biology UC Davis"
+
 
