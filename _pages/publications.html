@@ -26,9 +26,6 @@ permalink: /publications/
                                        style="margin-left: 8px; text-decoration: none; font-size: 1.1em;"
                                        aria-label="Open publication">🔗
                                     </a>
-                                {% if publication.code %}
-                                        <a href="{{publication.code}}">Code Repository 🔗</a>
-                                {% endif %} 
                             </p>
                             
                         </div> -->
@@ -39,6 +36,9 @@ permalink: /publications/
                                style="text-decoration: none; font-size: 1.1em;"
                                aria-label="Open publication">🔗
                             </a>
+                            {% if publication.code %}
+                                        <a href="{{publication.code}}">Code Repository 🔗</a>
+                            {% endif %} 
                         </div>
 
 
