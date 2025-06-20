@@ -22,6 +22,10 @@
                                        aria-label="Open publication">🔗
                                     </a>
                             {% endif %}  
+
+                            {% if publication.code %}
+                                <a href="publication.code">Code Repository 🔗</a>
+                            {% endif %}  
                             </li>
                         {%- endfor -%}
                     </ul>
