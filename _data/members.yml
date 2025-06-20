@@ -45,3 +45,13 @@
   startdate: "2025-02-20"
   island_stuff: "A Frisbee"
   alma_matter: "UG Biochemistry / Computer Science, University of Wisconsin–Madison"
+
+
+- name: "Andres Lira"
+  email: "alira3 (at) wisc.edu"
+  role: "PhD student in Biophysics"
+  image: "img/people/Andres.jpeg"
+  startdate: "2025-06-19"
+  island_stuff: ""
+  alma_matter: "B.S. in Biochemistry and Molecular Biology UC Davis"
+
