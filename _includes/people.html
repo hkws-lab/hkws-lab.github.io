@@ -48,6 +48,10 @@
             background-color: lightblue;
             color: black;
           }
+          mark_main { 
+            background-color: maroon;
+            color: white;
+          }
     </style>
     <div class="container">
         <div class="row">
@@ -67,11 +71,12 @@
                     </a>
                     {% if person.name == "Hannah Wayment-Steele" %}
                          <h3><a href="https://hwaymentsteele.github.io/" target="_blank">{{ person.name }}</a></h3>
+                         <p><mark_main>{{ person.role }}</mark_main></p>
                     {% else %}
                       <h3>{{ person.name }}</h3>
+                      <p><mark>{{ person.role }}</mark></p>
                     {% endif %}
-
-                     <p><mark>{{ person.role }}</mark></p>
+                    
                      
                     <p class="text-muted">{{ person.email }}</p>
                     <p class="text-muted">
