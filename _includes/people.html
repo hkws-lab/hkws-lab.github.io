@@ -63,8 +63,10 @@
     </div>
     <div class="container">
         <div class="row">
-            {%- for person in site.data.members | sort: "startdate" -%}
-            <div class="col-lg-3 col-md-6 text-center">
+          {%- assign prioritized = site.data.members | where: "name", "Hannah Wayment-Steele" -%}
+          {%- assign others = site.data.members | reject: "name", "Hannah Wayment-Steele" | sort: "name" -%}
+          {%- for person in prioritized -%}
+           <div class="col-lg-3 col-md-6 text-center">
                 <div class="member-box">
                     <a href="/member/#{{ person.name | url_encode }}">
                         <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:225px;max-width:225px">
@@ -91,7 +93,37 @@
 
                 </div>
             </div>
-            {%- endfor -%}
+          {%- endfor -%}
+          
+          {%- for person in others -%}
+          <div class="col-lg-3 col-md-6 text-center">
+                <div class="member-box">
+                    <a href="/member/#{{ person.name | url_encode }}">
+                        <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:225px;max-width:225px">
+                    </a>
+                    {% if person.name == "Hannah Wayment-Steele" %}
+                         <h3><a href="https://hwaymentsteele.github.io/" target="_blank">{{ person.name }}</a></h3>
+                         <p><mark_main>{{ person.role }}</mark_main></p>
+                    {% else %}
+                      <h3>{{ person.name }}</h3>
+                      <p><mark>{{ person.role }}</mark></p>
+                    {% endif %}
+                    
+                     
+                    <p class="text-muted">{{ person.email }}</p>
+                    <p class="text-muted">
+                    {% if person.alma_matter %}
+                         {% assign alma_list = person.alma_matter | split: "; " %}
+                         {% for degree in alma_list %}
+                             {{ degree }}<br>
+                         {% endfor %}
+                    {% endif %}
+                    </p>
+                    <p class="text-muted">Would bring to a Deserted Island: <strong>{{ person.island_stuff }}</strong></p>
+
+                </div>
+            </div>
+          {%- endfor -%}
         </div>
     </div>
 </section>
