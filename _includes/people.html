@@ -63,7 +63,7 @@
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="member-box">
                     <a href="/member/#{{ person.name | url_encode }}">
-                        <img class="image-crop" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}">
+                        <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:225px;max-width:225px">
                     </a>
                     {% if person.name == "Hannah Wayment-Steele" %}
                          <h3><a href="https://hwaymentsteele.github.io/" target="_blank">{{ person.name }}</a></h3>
