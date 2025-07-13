@@ -26,6 +26,10 @@
             max-height: 225px;
             max-width: 225px;
         }
+          mark { 
+            background-color: lightblue;
+            color: black;
+          }
     </style>
     <div class="container">
         <div class="row">
@@ -48,8 +52,9 @@
                     {% else %}
                       <h3>{{ person.name }}</h3>
                     {% endif %}
-                    
-                    <p style="color: #ddd;">{{ person.role }}</p>
+
+                     <p><mark>{{ person.role }}</mark></p>
+                     
                     <p class="text-muted">{{ person.email }}</p>
                     <p class="text-muted">
                     {% if person.alma_matter %}
