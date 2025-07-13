@@ -99,9 +99,7 @@
           <div class="col-lg-3 col-md-6 text-center">
                 
                     
-               {% if person.name == "Hannah Wayment-Steele" %}
-                
-               {% else %}
+               {% if person.name != "Hannah Wayment-Steele" %}
                      <div class="member-box">
                           <a href="/member/#{{ person.name | url_encode }}">
                              <img class="img-fluid" src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}" style="max-height:225px;max-width:225px">
@@ -117,12 +115,11 @@
                                   {{ degree }}<br>
                               {% endfor %}
                          {% endif %}
+                         </p>
+                    <p class="text-muted">Would bring to a Deserted Island: <strong>{{ person.island_stuff }}</strong></p>
      
                {% endif %}
-                     
                     
-                    </p>
-                    <p class="text-muted">Would bring to a Deserted Island: <strong>{{ person.island_stuff }}</strong></p>
 
                 </div>
             </div>
