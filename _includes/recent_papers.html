@@ -16,16 +16,6 @@
                         {% assign sorted_publications = site.data.publications | sort: "date" | reverse -%}
                         {%- for publication in sorted_publications limit:3 -%}
                             <li style="font-size: 120%;">{{ publication.citation | markdownify }} 
-                            {% if publication.url_link %}
-                                    <a href="{{ publication.url_link }}" target="_blank" 
-                                       style="margin-left: 8px; text-decoration: none; font-size: 1.2em;"
-                                       aria-label="Open publication">🔗
-                                    </a>
-                            {% endif %}  
-
-                            {% if publication.code %}
-                                <a href="{{publication.code}}">Repo 🔗</a>
-                            {% endif %}  
                             </li>
                         {%- endfor -%}
                     </ul>
