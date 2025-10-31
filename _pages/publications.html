@@ -34,18 +34,25 @@ permalink: /publications/
                             
                         </div> -->
                         
-                        <div class="publication-row" style="display: flex; align-items: center; gap: 0px;">
-                            <span>{{ publication.citation | markdownify | strip_newlines }}</span>
-                            
-                            <a href="{{ publication.url_link }}" target="_blank" 
-                               style="text-decoration: none; font-size: 1.1em;"
-                               aria-label="Open publication">🔗 
-                            </a>
-                            {% if publication.code %}
-                                        <a href="{{publication.code}}"> Repository 🔗</a>
-                            {% endif %} 
-                            
-                        </div>
+                         <div class="publication-row" style="display: flex; flex-direction: column; gap: 4px;">
+                      <span>{{ publication.citation | markdownify | strip_newlines }}</span>
+                    
+                      <div style="margin-top: 4px;">
+                        <a href="{{ publication.url_link }}" 
+                           target="_blank" 
+                           style="text-decoration: none; font-size: 1.1em; margin-right: 8px;"
+                           aria-label="Open publication">
+                          Paper
+                        </a>
+                        {% if publication.code %}
+                          <a href="{{ publication.code }}" 
+                             target="_blank"
+                             style="text-decoration: none; font-size: 1.1em;">
+                            Code
+                          </a>
+                        {% endif %}
+                      </div>
+                    </div>
 
 
 
