@@ -86,8 +86,8 @@
             <p class="text-muted">{{ person.email }}</p>
 
             <p class="text-muted">
-              {% if person.alma_matter %}
-                {% assign alma_list = person.alma_matter | split: "; " %}
+              {% if person.education %}
+                {% assign alma_list = person.education | split: "; " %}
                 {% for degree in alma_list %}
                   {{ degree }}<br>
                 {% endfor %}
