@@ -7,7 +7,7 @@
   url_link: "https://doi.org/10.1016/j.jmb.2025.169376"
   code: "https://github.com/HWaymentSteele/controls_04feb2024"
 
-- citation: "<u>Wayment-Steele HK<sup>#</sup></u>, </u>El Nesr G<sup>#</sup></u>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *BioRXiv* **2025**"
+- citation: "<u>Wayment-Steele HK<sup>#</sup></u>, <u>El Nesr G<sup>#</sup></u>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *BioRXiv* **2025**"
   date: 20250319
   url_link: "https://www.biorxiv.org/content/10.1101/2025.03.19.642801v1"
   code: "https://github.com/WaymentSteeleLab/Dyna-1"
