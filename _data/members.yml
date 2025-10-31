@@ -8,7 +8,7 @@
 
 - name: "Cizhang Zhao (JOJO)"
   email: "czhao276 (at) wisc.edu"
-  role: "PhD student in Biophysics"
+  role: "PhD student, Biophysics"
   image: "img/people/jojo.jpg"
   startdate: "2024-12-02"
   island_stuff: "A Knife"
@@ -20,7 +20,7 @@
   image: "img/people/gina.jpg"
   startdate: "2024-12-03"
   island_stuff: "Swimsuit & goggles"
-  alma_matter: "B.A. Biophysics / Computer Science / Applied Math & Statistics, JHU"
+  alma_matter: "B.A. Biophysics / Computer Science / Applied Math & Statistics, Johns Hopkins"
 
 - name: "Ben Harding"
   email: "bdharding (at) wisc.edu"
@@ -32,11 +32,11 @@
 
 - name: "Andres Lira"
   email: "alira3 (at) wisc.edu"
-  role: "PhD student in Biophysics"
+  role: "PhD student, Biophysics"
   image: "img/people/Andres.jpeg"
   startdate: "2025-06-12"
   island_stuff: "A Fishing Rod"
-  alma_matter: "B.S. in Biochemistry and Molecular Biology UC Davis"
+  alma_matter: "B.S. Biochemistry and Molecular Biology, UC Davis"
   
 - name: "Nevin Pai"
   email: "nnpai (at) wisc.edu"
@@ -52,7 +52,7 @@
   image: "img/people/cm.jpeg"
   startdate: "2025-08-14"
   island_stuff: "A long book"
-  alma_matter: "Postdoc: UCSF, Ph.D. Biophysics, University of Michigan; B.S. Biochemistry / Mathematics, Arizona State University"
+  alma_matter: "Postdoc: UCSF, Ph.D. Biophysics: University of Michigan; B.S. Biochemistry / Mathematics, Arizona State University"
 
 - name: "Nisha Ekanathan"
   email: "ekanathan@wisc.edu"
