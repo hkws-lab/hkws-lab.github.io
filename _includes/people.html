@@ -67,13 +67,10 @@
 
   <div class="container">
     <div class="row">
-      {%- assign p1 = site.data.members | where: "name", "Hannah Wayment-Steele" -%}
-      {%- assign p2 = site.data.members | where: "name", "Chris Macdonald" -%}
-      {%- assign prioritized = p1 | concat: p2 -%}
-
-      {%- assign others = site.data.members
-           | reject: "name", "Hannah Wayment-Steele"
-           | reject: "name", "Chris Macdonald"
+      {%- assign prioritized = site.data.members | where: "name", "Hannah Wayment-Steele" 
+           | concat: (site.data.members | where: "name", "Chris Macdonald") -%}
+      {%- assign others = site.data.members 
+           | where_exp: "member", "member.name != 'Hannah Wayment-Steele' and member.name != 'Chris Macdonald'" 
            | sort: "name" -%}
 
       {%- for person in prioritized -%}
