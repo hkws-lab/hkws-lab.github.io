@@ -63,8 +63,8 @@
     </div>
     <div class="container">
         <div class="row">
-          {%- assign prioritized = site.data.members | where: "name", "Hannah Wayment-Steele" -%}
-          {%- assign others_unsorted = site.data.members | reject: "name", "Hannah Wayment-Steele" -%}
+           {%- assign prioritized = site.data.members | where_exp: "m", "m.name == 'Hannah Wayment-Steele' or m.name == 'Chris Macdonald'" -%}
+         {%- assign others_unsorted = site.data.members | reject_exp: "m", "m.name == 'Hannah Wayment-Steele' or m.name == 'Chris Macdonald'" -%}
           {%- assign others = others_unsorted | sort: "name" -%}
 
           {%- for person in prioritized -%}
