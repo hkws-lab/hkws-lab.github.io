@@ -1,8 +1,8 @@
-- citation: "Chen Y, Lu T, Zhao C, Wayment-Steele HK, Huang P. SLAE: Strictly Local All-atom Environment for Protein Representation. *BioRXiv* **2025**"
+- citation: "Chen Y, Lu T, <u>Zhao C</u>, <u>Wayment-Steele HK</u>, Huang P. SLAE: Strictly Local All-atom Environment for Protein Representation. *BioRXiv* **2025**"
   date: 20251006
   url_link: "https://doi.org/10.1101/2025.10.03.680398"
 
-- citation: "**Wayment-Steele HK**, Ovchinnikov S, Colwell L, Kern D. Does sequence clustering confound AlphaFold2? *JMB* **2025**"
+- citation: "<u>Wayment-Steele HK</u>, Ovchinnikov S, Colwell L, Kern D. Does sequence clustering confound AlphaFold2? *JMB* **2025**"
   date: 20250509
   url_link: "https://doi.org/10.1016/j.jmb.2025.169376"
   code: "https://github.com/HWaymentSteele/controls_04feb2024"
