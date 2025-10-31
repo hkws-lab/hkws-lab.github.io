@@ -7,61 +7,63 @@
   url_link: "https://doi.org/10.1016/j.jmb.2025.169376"
   code: "https://github.com/HWaymentSteele/controls_04feb2024"
 
-
-- citation: "**Wayment-Steele HK**<sup>#</sup>, El Nesr G<sup>#</sup>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *BioRXiv* **2025**"
+- citation: "<u>Wayment-Steele HK<sup>#</sup></u>, </u>El Nesr G<sup>#</sup></u>, Hettiarachchi R, Kariyawasam H, Ovchinnikov S & Kern D. Learning millisecond protein dynamics from what is missing in NMR spectra. *BioRXiv* **2025**"
   date: 20250319
   url_link: "https://www.biorxiv.org/content/10.1101/2025.03.19.642801v1"
   code: "https://github.com/WaymentSteeleLab/Dyna-1"
 
-- citation: "**Wayment-Steele HK**<sup>#</sup>, Otten R<sup>#</sup>, Pitsawong W<sup>#</sup>, Ojoawo A<sup>#</sup>, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *PNAS* **2024**"
+- citation: Pre- Wayment-Steele lab
+  date: 20241010
+  
+- citation: "<u>Wayment-Steele HK<sup>#</sup></u>, Otten R<sup>#</sup>, Pitsawong W<sup>#</sup>, Ojoawo A<sup>#</sup>, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *PNAS* **2024**"
   date: 20240603
   url_link: "https://www.pnas.org/doi/abs/10.1073/pnas.2412293121"
   
-- citation: "Zhang Z<sup>#</sup>, **Wayment-Steele HK**<sup>#</sup>, Brixi G, Wang H, Kern D & Ovchinnikov S. Protein language models learn evolutionary statistics of interacting sequence motifs. *PNAS* **2024**"
+- citation: "Zhang Z<sup>#</sup>, <u>Wayment-Steele HK<sup>#</sup></u>, Brixi G, Wang H, Kern D & Ovchinnikov S. Protein language models learn evolutionary statistics of interacting sequence motifs. *PNAS* **2024**"
   date: 20240131
   url_link: "https://www.pnas.org/doi/abs/10.1073/pnas.2406285121"
 
-- citation: "**Wayment-Steele HK**<sup>#</sup>, Ojoawo A<sup>#</sup>, Otten R, Apitz JM, Pitsawong W, Hoemberger M, Ovchinnikov S, Colwell L & Kern D. Predicting multiple conformations via sequence clustering and AlphaFold2. *Nature* **2023**"
+- citation: "<u>Wayment-Steele HK<sup>#</sup></u>, Ojoawo A<sup>#</sup>, Otten R, Apitz JM, Pitsawong W, Hoemberger M, Ovchinnikov S, Colwell L & Kern D. Predicting multiple conformations via sequence clustering and AlphaFold2. *Nature* **2023**"
   date: 20231113
   url_link: "https://www.nature.com/articles/s41586-023-06832-9"
 
-- citation: "**Wayment-Steele, HK**<sup>#</sup>, Kladwang, W<sup>#</sup>, Watkins, AM<sup>#</sup>, Kim, DS<sup>#</sup>, Tunguz, B<sup>#</sup>, ... Das, R. Deep learning models for predicting RNA degradation via dual crowdsourcing. *Nature Machine Intelligence* **2022**"
+- citation: "<u>Wayment-Steele HK<sup>#</sup></u>, Kladwang, W<sup>#</sup>, Watkins, AM<sup>#</sup>, Kim, DS<sup>#</sup>, Tunguz, B<sup>#</sup>, ... Das, R. Deep learning models for predicting RNA degradation via dual crowdsourcing. *Nature Machine Intelligence* **2022**"
   date: 20221215
   url_link: "https://www.nature.com/articles/s42256-022-00571-8"
 
-- citation: "**Wayment-Steele, HK**, Kladwang, W, Strom, A. I., Becka, A., Lee, J., Treuille, A., Eterna Participants, Das, R. RNA secondary structure packages evaluated and improved by high-throughput experiments. *Nature Methods* **2022**"
+- citation: "<u>Wayment-Steele HK</u>, Kladwang, W, Strom, A. I., Becka, A., Lee, J., Treuille, A., Eterna Participants, Das, R. RNA secondary structure packages evaluated and improved by high-throughput experiments. *Nature Methods* **2022**"
   date: 20221101
   url_link: "https://www.nature.com/articles/s41592-022-01605-0"
 
-- citation: "Leppek, K.<sup>#</sup>, Byeon, GW<sup>#</sup>, Kladwang, W<sup>#</sup>, **Wayment-Steele, HK**<sup>#</sup>, Kerr, CH<sup>#</sup>, ... Barna, M, Das, R. Combinatorial optimization of mRNA structure, stability, and translation for RNA-based therapeutics. *Nature Communications* **2022**"
+- citation: "Leppek, K.<sup>#</sup>, Byeon, GW<sup>#</sup>, Kladwang, W<sup>#</sup>, <u>Wayment-Steele HK<sup>#</sup></u>, Kerr, CH<sup>#</sup>, ... Barna, M, Das, R. Combinatorial optimization of mRNA structure, stability, and translation for RNA-based therapeutics. *Nature Communications* **2022**"
   date: 20220920
   url_link: "https://www.nature.com/articles/s41467-022-28776-w"
 
-- citation: "Andreasson, JO, Gotrik, MR, Wu, MJ, **Wayment-Steele, HK**, Kladwang, W, Portela, F, Wellington-Oguri, R., Eterna Participants, Das, R., Greenleaf, W. J. Crowdsourced RNA design discovers diverse, reversible, efficient, self-contained molecular sensors. *PNAS* **2022**"
+- citation: "Andreasson, JO, Gotrik, MR, Wu, MJ, <u>Wayment-Steele HK</u>, Kladwang, W, Portela, F, Wellington-Oguri, R., Eterna Participants, Das, R., Greenleaf, W. J. Crowdsourced RNA design discovers diverse, reversible, efficient, self-contained molecular sensors. *PNAS* **2022**"
   date: 20220618
   url_link: "https://www.biorxiv.org/content/10.1101/2019.12.16.877183v1.abstract"
 
-- citation: "**Wayment-Steele, HK**, Kim, DS, Choe, CA, Nicol, JJ, Wellington-Oguri, R, Sperberg, RAP, Huang, P, Eterna Participants, Das, R. Theoretical basis for stabilizing messenger RNA through secondary structure design. *Nucleic Acids Research* **2021**"
+- citation: "<u>Wayment-Steele HK</u>, Kim DS, Choe CA, Nicol JJ, Wellington-Oguri R, Sperberg RAP, Huang P, Eterna Participants, Das R. Theoretical basis for stabilizing messenger RNA through secondary structure design. *Nucleic Acids Research* **2021**"
   date: 20211201
   url_link: "https://academic.oup.com/nar/article/49/18/10604/6370252"
 
-- citation: "Kostrz, D, **Wayment-Steele, HK**, Wang, J. L., Follenfant, M., Pande, V. S., Strick, T. R., Gosse, C. A modular DNA scaffold to study protein–protein interactions at single-molecule resolution. *Nature Nanotechnology* **2019**"
+- citation: "Kostrz D, <u>Wayment-Steele HK</u>, Wang JL, Follenfant M, Pande VS, Strick TR, Gosse C. A modular DNA scaffold to study protein–protein interactions at single-molecule resolution. *Nature Nanotechnology* **2019**"
   date: 20191005
   url_link: "https://www.nature.com/articles/s41565-019-0542-7"
 
-- citation: "**Wayment-Steele, HK**, Pande, VS Variational encoding of protein dynamics benefits from maximizing latent autocorrelation. *The Journal of Chemical Physics* **2018**"
+- citation: "<u>Wayment-Steele HK</u>, Pande, VS Variational encoding of protein dynamics benefits from maximizing latent autocorrelation. *The Journal of Chemical Physics* **2018**"
   date: 20181210
   url_link: "https://pubs.aip.org/aip/jcp/article/149/21/216101/196501"
 
-- citation: "Hernandez, CX<sup>#</sup>, **Wayment-Steele, HK**<sup>#</sup>, Sultan, MM<sup>#</sup>, Husic, BE, Pande, VS. Variational Encoding of Complex Dynamics. *Physical Review E* **2018**"
+- citation: "Hernandez, CX<sup>#</sup>, <u>Wayment-Steele, HK<sup>#</sup></u>, Sultan, MM<sup>#</sup>, Husic, BE, Pande, VS. Variational Encoding of Complex Dynamics. *Physical Review E* **2018**"
   date: 20180615
   url_link: "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.97.062412"
 
-- citation: "Sultan, MM, **Wayment-Steele, HK**, Pande, VS. Transferable neural networks for enhanced sampling of protein dynamics. *Journal of Chemical Theory and Computation* **2018**"
+- citation: "Sultan, MM, <u>Wayment-Steele HK</u>, Pande, VS. Transferable neural networks for enhanced sampling of protein dynamics. *Journal of Chemical Theory and Computation* **2018**"
   date: 20180410
   url_link: "https://pubs.acs.org/doi/10.1021/acs.jctc.8b00025"
 
-- citation: "Husic, BE, McKiernan, KA, **Wayment-Steele, HK**, Sultan, MM, Pande, VS. A minimum variance clustering approach produces robust and interpretable coarse-grained models. *Journal of Chemical Theory and Computation* **2018**"
+- citation: "Husic, BE, McKiernan, KA, <u>Wayment-Steele HK</u>, Sultan, MM, Pande, VS. A minimum variance clustering approach produces robust and interpretable coarse-grained models. *Journal of Chemical Theory and Computation* **2018**"
   date: 20180220
   url_link: "https://pubs.acs.org/doi/10.1021/acs.jctc.7b01004"
   
