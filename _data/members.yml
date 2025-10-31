@@ -6,14 +6,6 @@
   island_stuff: "A rowboat"
   alma_matter: ""
 
-- name: "Kritika Kumari"
-  email: "kkumari (at) wisc.edu"
-  role: "PhD student in Biophysics"
-  image: "img/people/kritika.jpg"
-  startdate: "2024-12-01"
-  island_stuff: "A Friend"
-  alma_matter: "BS-MS Biology, Indian Institute of Science Education & Research Pune"
-
 - name: "Cizhang Zhao (JOJO)"
   email: "czhao276 (at) wisc.edu"
   role: "PhD student in Biophysics"
@@ -28,15 +20,15 @@
   image: "img/people/gina.jpg"
   startdate: "2024-12-03"
   island_stuff: "Swimsuit & goggles"
-  alma_matter: "Ph.D. Biophysics, Stanford University; B.A. Biophysics / Computer Science / Applied Math & Statistics, JHU"
+  alma_matter: "B.A. Biophysics / Computer Science / Applied Math & Statistics, JHU"
 
 - name: "Ben Harding"
   email: "bdharding (at) wisc.edu"
-  role: "Post-doc"
+  role: "Postdoctoral fellow"
   image: "img/people/Ben_Harding.jpg"
   startdate: "2025-08-01"
   island_stuff: "Golf clubs"
-  alma_matter: "Ph.D Biophysics, University of Wisconsin–Madison; B.S. Biochemistry, Miami University (Ohio)"
+  alma_matter: "Ph.D. Biophysics, University of Wisconsin–Madison; B.S. Biochemistry, Miami University (Ohio)"
 
 - name: "Andres Lira"
   email: "alira3 (at) wisc.edu"
@@ -48,11 +40,11 @@
   
 - name: "Nevin Pai"
   email: "nnpai (at) wisc.edu"
-  role: "UG researcher"
+  role: "Undergraduate researcher"
   image: "img/people/Nevin.JPG"
   startdate: "2025-02-20"
   island_stuff: "A Frisbee"
-  alma_matter: "UG Biochemistry / Computer Science, University of Wisconsin–Madison"
+  alma_matter: ""
 
 - name: "Christian Macdonald"
   email: "cbmacdonald (at) wisc.edu"
@@ -60,17 +52,16 @@
   image: "img/people/cm.jpeg"
   startdate: "2025-08-14"
   island_stuff: "A long book"
-  alma_matter: "Ph.D. Biophysics, University of Michigan; B.S. Biochemistry / Mathematics, ASU; Postdoc, UCSF"
+  alma_matter: "Postdoc: UCSF, Ph.D. Biophysics, University of Michigan; B.S. Biochemistry / Mathematics, Arizona State University"
 
 - name: "Nisha Ekanathan"
   email: "ekanathan@wisc.edu"
-  role: "UG researcher"
+  role: "Undergraduate researcher"
   image: "img/people/nisha.jpg"
   startdate: "2025-09-1"
   island_stuff: "A hammock"
-  alma_matter: "Biochemistry , University of Wisconsin–Madison"
+  alma_matter: ""
 
-  
 
 
 
