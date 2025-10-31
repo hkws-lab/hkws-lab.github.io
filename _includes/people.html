@@ -4,7 +4,7 @@
     #people .row {
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem; /* Add space between items */
+        gap: 1rem;
         justify-content: center;
     }
     #people .member-box {
@@ -13,12 +13,12 @@
         align-items: center;
         justify-content: flex-start;
         text-align: center;
-        min-height: 300px; /* Ensures equal height */
-        max-width: 225px; /* Prevents images from breaking grid layout */
+        min-height: 300px;
+        max-width: 225px;
         padding: 0.5rem;
     }
     #people .member-box h3 {
-        height: 2.5em; /* Uniform height for names */
+        height: 2.5em;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -36,8 +36,8 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        border-radius: 5px; /* optional */
-        background: #f0f0f0; /* optional fallback bg */
+        border-radius: 5px;
+        background: #f0f0f0;
         margin-bottom: 0.5rem;
     }
     #people .image-crop img {
@@ -67,13 +67,7 @@
 
   <div class="container">
     <div class="row">
-      {%- assign prioritized = site.data.members | where: "name", "Hannah Wayment-Steele" 
-           | concat: (site.data.members | where: "name", "Chris Macdonald") -%}
-      {%- assign others = site.data.members 
-           | where_exp: "member", "member.name != 'Hannah Wayment-Steele' and member.name != 'Chris Macdonald'" 
-           | sort: "name" -%}
-
-      {%- for person in prioritized -%}
+      {%- for person in site.data.members -%}
         <div class="col-lg-3 col-md-6 text-center">
           <div class="member-box">
             <a href="/member/#{{ person.name | url_encode }}">
@@ -84,42 +78,10 @@
 
             {% if person.name == "Hannah Wayment-Steele" %}
               <h3><a href="https://hwaymentsteele.github.io/" target="_blank">{{ person.name }}</a></h3>
-            {% elsif person.name == "Chris Macdonald" %}
-              <!--  special link/handling -->
-             <!-- <h3><a href="#" target="_blank">{{ person.name }}</a></h3> -->
-              <h3>{{ person.name }}</h3>
-
             {% else %}
               <h3>{{ person.name }}</h3>
             {% endif %}
 
-            <p><mark>{{ person.role }}</mark></p>
-            <p class="text-muted">{{ person.email }}</p>
-
-            <p class="text-muted">
-              {% if person.alma_matter %}
-                {% assign alma_list = person.alma_matter | split: "; " %}
-                {% for degree in alma_list %}
-                  {{ degree }}<br>
-                {% endfor %}
-              {% endif %}
-            </p>
-
-            <p class="text-muted">Would bring to a Deserted Island: <strong>{{ person.island_stuff }}</strong></p>
-          </div>
-        </div>
-      {%- endfor -%}
-
-      {%- for person in others -%}
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="member-box">
-            <a href="/member/#{{ person.name | url_encode }}">
-              <div class="image-crop">
-                <img src="{{ person.image }}" title="{{ person.name }}" alt="{{ person.name }}">
-              </div>
-            </a>
-
-            <h3>{{ person.name }}</h3>
             <p><mark>{{ person.role }}</mark></p>
             <p class="text-muted">{{ person.email }}</p>
 
