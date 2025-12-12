@@ -31,8 +31,22 @@
   role: "PhD student, Biophysics"
   image: "img/people/jojo.jpg"
   startdate: "2024-12-02"
-  education: "Bachelors: Biosciences, University of Science and Technology of China"
+  education: "BSc: Biosciences, University of Science and Technology of China"
 
+- name: "Yuchen Xu"
+  email: "yxu649 (at) wisc.edu"
+  role: "PhD student, Biophysics"
+  image: "img/people/yuchen.jpg"
+  startdate: "2025-12-01"
+  education: "BE: Bioengineering, Northeastern U (China), MPH: Biostatistics, Columbia"
+
+- name: "Anne Gumina"
+  email: "agumina (at) wisc.edu"
+  role: "PhD student, Biophysics"
+  image: "img/people/anne.png"
+  startdate: "2025-12-01"
+  education: "BS: Applied Math, CU Denver, MS: Statistics, CU Denver"
+  
 - name: "Gina El Nesr"
   email: "gelnesr (at) stanford.edu"
   role: "Visiting researcher"
