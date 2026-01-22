@@ -1,5 +1,5 @@
-name: Ben Harding
-lab_role: Postdoc
-start_date: 20250801
-end_date: 20260116
-current: Research Scientist at X
+- name: "Ben Harding"
+  lab_role: Postdoc
+  start_date: 20250801
+  end_date: 20260116
+  current: "Research Scientist at X"
