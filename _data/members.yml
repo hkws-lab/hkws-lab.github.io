@@ -12,6 +12,13 @@
   startdate: "2025-08-14"
   education: "Postdoc: UC San Francisco; PhD: Biophysics, University of Michigan; BS: Biochemistry / Math, Arizona State"
 
+- name: "Leo Bustamante-Carballo"
+  email: "leobustamante2305 (at) gmail.com"
+  role: "Postdoc"
+  image: "img/people/leo.jpg"
+  startdate: "2026-06-1"
+  education: "PhD: Biophysical Chemistry, University of Illinois Chicago; BSc: Chemistry, University of Costa Rica"
+
 - name: "Andres Lira"
   email: "alira3 (at) wisc.edu"
   role: "PhD student, Biophysics"
@@ -46,6 +53,13 @@
   image: "img/people/gina.jpg"
   startdate: "2024-12-03"
   education: "BA: Biophysics / Computer Science / Applied Math & Statistics, Johns Hopkins"
+
+- name: "Megan Aichele"
+  email: "Megan.aichele (at) gmail.com"
+  role: "Postbac"
+  image: "img/people/MA.jpg"
+  startdate: "2026-8-01"
+  education: "BS: Biochemistry, Brigham Young University"
 
 - name: "Nevin Pai"
   email: "nnpai (at) wisc.edu"
