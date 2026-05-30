@@ -46,6 +46,13 @@
   image: "img/people/anne.png"
   startdate: "2025-12-01"
   education: "BS: Applied Math, CU Denver, MS: Statistics, CU Denver"
+
+- name: "Zhixuan Yan (Jenny)"
+  email: "zyan229 (at) wisc.edu"
+  role: "potential PhD student, Biophysics"
+  image: "img/people/Jenny.jpg"
+  startdate: "2026-8-01"
+  education: "BS: Chemistry / Math / Physics, UW–Madison"
   
 - name: "Gina El Nesr"
   email: "gelnesr (at) stanford.edu"
@@ -60,6 +67,13 @@
   image: "img/people/MA.jpg"
   startdate: "2026-8-01"
   education: "BS: Biochemistry, Brigham Young University"
+
+ - name: "Shalom Akolatse"
+  email: "scakolatse (at) gmail.com"
+  role: "Postbac"
+  image: "img/people/shalom.jpg"
+  startdate: "2026-8-01"
+  education: "BS: Mathematics, Chem minor, William & Mary" 
 
 - name: "Nevin Pai"
   email: "nnpai (at) wisc.edu"
