@@ -2,9 +2,9 @@
   date: 20260528
   url_link: "https://www.biorxiv.org/content/10.64898/2026.05.28.728275v1"
 
-- citation: "Chen Y, Lu T, <u>Zhao C</u>, <u>Wayment-Steele HK</u>, Huang P. SLAE: Strictly Local All-atom Environment for Protein Representation. *BioRXiv* **2025**"
-  date: 20251006
-  url_link: "https://doi.org/10.1101/2025.10.03.680398"
+- citation: "Chen Y, Lu T, <u>Zhao C</u>, <u>Wayment-Steele HK</u>, Huang P. SLAE: Strictly Local All-atom Environment for Protein Representation. *International Conference on Machine Learning (ICML)* **2026**"
+  date: 20260101
+  url_link: "https://openreview.net/forum?id=4HDRkXxqNs"
 
 - citation: "<u>Wayment-Steele HK</u>, Ovchinnikov S, Colwell L, Kern D. Does sequence clustering confound AlphaFold2? *JMB* **2025**"
   date: 20250509
