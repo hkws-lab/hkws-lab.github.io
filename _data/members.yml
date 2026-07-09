@@ -61,6 +61,13 @@
   startdate: "2024-12-03"
   education: "BA: Biophysics / Computer Science / Applied Math & Statistics, Johns Hopkins"
 
+- name: "Meg Taylor"
+  email: "mktaylor4 (at) wisc (dot) edu"
+  role: "Visiting researcher"
+  image: "img/people/meg.jpg"
+  startdate: "2026-1-1"
+  education: "MS: Biophysics, UW-Madison ;BS: Chemistry / Cell and Molecular Biology /  Statistics, Baylor University"
+
 - name: "Megan Aichele"
   email: "Megan.aichele (at) gmail.com"
   role: "Postbac"
