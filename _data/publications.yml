@@ -15,7 +15,11 @@
   date: 20250319
   url_link: "https://www.biorxiv.org/content/10.1101/2025.03.19.642801v1"
   code: "https://github.com/WaymentSteeleLab/Dyna-1"
-  
+
+- citation: "Gitter A, Fraser JS, Gonen T, Patro R, <u>Wayment-Steele HK</u>, Williams A, Haibe-Kains B, Dunbrack RL, Cook C, Kundaje A, Hoffman MM, Carpenter AE, Wankowicz SA & Lindorff-Larsen K. A Renewed Call For Open Artificial Intelligence In Biomedicine. *OSF Preprint* **2024**"
+  date: 20240901
+  url_link: "https://osf.io/preprints/osf/2xh3w_v1"
+
 - citation: "<u>Wayment-Steele HK<sup>#</sup></u>, Otten R<sup>#</sup>, Pitsawong W<sup>#</sup>, Ojoawo A<sup>#</sup>, Glaser A, Calderone LA & Kern D. The conformational landscape of fold-switcher KaiB is tuned to the circadian rhythm timescale. *PNAS* **2024**"
   date: 20240603
   url_link: "https://www.pnas.org/doi/abs/10.1073/pnas.2412293121"
