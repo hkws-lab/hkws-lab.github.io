@@ -47,13 +47,6 @@
   startdate: "2025-12-01"
   education: "BS: Applied Math, CU Denver, MS: Statistics, CU Denver"
 
-- name: "Zhixuan Yan (Jenny)"
-  email: "zyan229 (at) wisc.edu"
-  role: "potential PhD student, Biophysics"
-  image: "img/people/Jenny.jpg"
-  startdate: "2026-8-01"
-  education: "BS: Chemistry / Math / Physics, UW–Madison"
-  
 - name: "Gina El Nesr"
   email: "gelnesr (at) stanford.edu"
   role: "Visiting researcher"
