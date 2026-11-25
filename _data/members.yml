@@ -47,6 +47,13 @@
   startdate: "2025-12-01"
   education: "BS: Applied Math, CU Denver, MS: Statistics, CU Denver"
 
+- name: "Vratin Srivastava"
+  email: "vsrivastav28 (at) wisc.edu"
+  role: "PhD student, Biophysics"
+  image: "img/people/vratin.png"
+  startdate: "2025-12-01"
+  education: "BTech: Chem Engineering, Manipal Institute of Technology, MSc: Comp Biology, CMU"
+
 - name: "Gina El Nesr"
   email: "gelnesr (at) stanford.edu"
   role: "Visiting researcher"
